@@ -1,0 +1,83 @@
+body {
+    background-image: url('Images/Image 1.jpg');
+    background-size: 1300px 750px;
+    background-repeat: no-repeat;
+
+.container{
+    display: flex;
+}
+
+h1 {
+    font-family: montserrat;
+    font-weight: 700, bold;
+    color: white;
+    margin-left: 150px;
+    width: 350px;
+}
+.maintext {
+    font-family: montserrat;
+    display: grid;
+    margin-left: 350px;
+    margin-top: 80px;
+    width: 500px;
+}
+.maintext h2{
+    color: white;
+}
+.maintext p{
+    color: white;
+    margin-top: 5px;
+    font-size: small;
+}
+.maintext .transparentbutton{
+    display: block; 
+    box-sizing: border-box;  
+    padding: 8px; 
+    width: 80%; 
+    max-width: 200px; 
+    background: linear-gradient(270deg, #781F87 -40.51%, rgba(198, 196, 204, 0.0112994) -28.8%, rgba(162, 102, 177, 0.421893) 20.23%, rgba(180, 159, 188, 0.237536) 38.53%);
+    // background: rgb(236, 235, 235); 
+    // // background: rgba(250, 250, 250, 0.5); 
+    border-radius: 8px; 
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+    transition: all 0.3s ease-out; 
+}
+.maintext .transparentbutton:hover {
+    background-color: #000000; 
+  color: white;
+}
+
+.maintext .transparentbutton:focus
+
+.maintext .transparentbutton:active{ 
+    background: #fff; 
+    color: #000; 
+    transition: all 0.5s ease-in; }
+
+div ul li a {
+    width: 1200;
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+    // display: flex;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+  }
+li a {
+    font-family: poppins;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px 0px 14px;
+    margin-right: 15px;
+  }
+
+}
