@@ -68,6 +68,25 @@ body .maintext .transparentbutton:focus
   transition: all 0.5s ease-in;
 }
 
+body .sidebar {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  font-family: poppins;
+  color: rgba(242, 242, 242, 0.7);
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  left: 5px;
+  top: 60px;
+  line-height: 5px;
+}
+
+body .sidebar p {
+  font-size: small;
+  margin-top: 0px;
+  width: 400px;
+}
+
 body div ul li a {
   width: 1200;
   font-family: poppins;
