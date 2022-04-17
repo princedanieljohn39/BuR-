@@ -1,114 +1,125 @@
 body {
-  background-image: url("Images/Image 1.jpg");
-  background-size: 1300px 750px;
-  background-repeat: no-repeat;
+    background-image: url('Images/Image 1.jpg');
+    background-size: 1300px 750px;
+    background-repeat: no-repeat;
+
+.container{
+    display: flex;
 }
 
-body .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+h1 {
+    font-family: montserrat;
+    font-weight: 700, bold;
+    color: white;
+    margin-left: 150px;
+    width: 350px;
 }
-
-body h1 {
-  font-family: montserrat;
-  font-weight: 700, bold;
-  color: white;
-  margin-left: 150px;
-  width: 350px;
+.maintext {
+    font-family: montserrat;
+    display: grid;
+    margin-left: 350px;
+    margin-top: 80px;
+    width: 500px;
 }
-
-body .maintext {
-  font-family: montserrat;
-  display: -ms-grid;
-  display: grid;
-  margin-left: 350px;
-  margin-top: 80px;
-  width: 500px;
+.maintext h2{
+    color: white;
 }
-
-body .maintext h2 {
-  color: white;
+.maintext p{
+    color: white;
+    margin-top: 5px;
+    font-size: small;
 }
-
-body .maintext p {
-  color: white;
-  margin-top: 5px;
-  font-size: small;
+.maintext .transparentbutton{
+    display: block; 
+    box-sizing: border-box;  
+    padding: 8px; 
+    width: 80%; 
+    max-width: 200px; 
+    background: linear-gradient(270deg, #781F87 -40.51%, rgba(198, 196, 204, 0.0112994) -28.8%, rgba(162, 102, 177, 0.421893) 20.23%, rgba(180, 159, 188, 0.237536) 38.53%); 
+    border-radius: 8px; 
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+    transition: all 0.3s ease-out; 
 }
-
-body .maintext .transparentbutton {
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 8px;
-  width: 80%;
-  max-width: 200px;
-  background: -webkit-gradient(linear, right top, left top, color-stop(-40.51%, #781F87), color-stop(-28.8%, rgba(198, 196, 204, 0.0112994)), color-stop(20.23%, rgba(162, 102, 177, 0.421893)), color-stop(38.53%, rgba(180, 159, 188, 0.237536)));
-  background: linear-gradient(270deg, #781F87 -40.51%, rgba(198, 196, 204, 0.0112994) -28.8%, rgba(162, 102, 177, 0.421893) 20.23%, rgba(180, 159, 188, 0.237536) 38.53%);
-  border-radius: 8px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-body .maintext .transparentbutton:hover {
-  background-color: #000000;
+.maintext .transparentbutton:hover {
+    background-color: #000000; 
   color: white;
 }
 
-body .maintext .transparentbutton:focus
-.maintext .transparentbutton:active {
-  background: #fff;
-  color: #000;
-  -webkit-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+.maintext .transparentbutton:focus
+
+.maintext .transparentbutton:active{ 
+    background: #fff; 
+    color: #000; 
+    transition: all 0.5s ease-in; }
+
+.sidebar{
+    transform: rotate(-90deg);
+    font-family: poppins;
+    color: rgba(242, 242, 242, 0.7);
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    left: 5px;
+    top: 60px;
+    line-height: 5px;
+}    
+
+// .sidebar h1{
+//     color: #ffffff;
+//     background-color: antiquewhite;
+// }    
+
+.sidebar p{
+    font-size: small;
+    margin-top: 0px;
+    width: 400px;
 }
 
-body .sidebar {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-  font-family: poppins;
-  color: rgba(242, 242, 242, 0.7);
-  position: absolute;
-  width: 700px;
-  height: 300px;
-  left: 5px;
-  top: 60px;
-  line-height: 5px;
+div ul li a {
+    width: 1200;
+    font-family: poppins;
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+li {
+    float: left;
+  }
+li a {
+    font-family: poppins;
+    font-weight: bold;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px 0px 14px;
+    margin-right: 15px;
+  }
+
+.number li a{
+    font-family: montserrat;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 29px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 29px;
+}  
+
+.number ul .selection li a{
+    border-radius: 150px;
+    background-color: transparent;
+    border: 2px solid white;
 }
 
-body .sidebar p {
-  font-size: small;
-  margin-top: 0px;
-  width: 400px;
+.number{
+    margin-left: 500px;
+    margin-top: 155px;
 }
 
-body div ul li a {
-  width: 1200;
-  font-family: poppins;
-  color: white;
-  text-decoration: none;
 }
-
-body ul {
-  list-style-type: none;
-}
-
-body li {
-  float: left;
-}
-
-body li a {
-  font-family: poppins;
-  font-weight: bold;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 18px 0px 14px;
-  margin-right: 15px;
-}
-/*# sourceMappingURL=style.css.map */
