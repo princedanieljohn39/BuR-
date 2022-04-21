@@ -1,4 +1,4 @@
 # BuR
 VR product landing page
-77% complete, facing minor issues with pages
+78% complete, facing minor issues with pages
 (A collaboration with priscyy)
